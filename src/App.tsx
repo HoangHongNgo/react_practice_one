@@ -9,7 +9,6 @@ const Home = React.lazy(() => import("./pages/Home"));
 import ProtectedRoute from "./components/ProtectedRoute";
 import ProductDetail from "./pages/ProductDetail";
 import Cart from "./pages/Cart";
-import { ICartItem } from "./types/cart";
 import { ThemeProvider } from "styled-components";
 import { GlobalStyles } from "./styles/Global";
 import { theme } from "./styles/theme";
