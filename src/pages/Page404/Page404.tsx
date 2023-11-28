@@ -1,6 +1,4 @@
-export interface IPage404Props {}
-
-const Page404 = (props: IPage404Props): JSX.Element => {
+const Page404 = (): JSX.Element => {
   return <>Page404</>;
 };
 
