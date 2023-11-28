@@ -1,0 +1,232 @@
+{
+  "users": [
+    {
+      "email": "olivier@mail.com",
+      "password": "$2a$10$Uwj7O0AhYNkHvAR.3MshOO9LUm2GX7HZYe6rMXeqZLfNnPGSw6Q1.",
+      "id": 1
+    },
+    {
+      "email": "admin@mail.com",
+      "password": "$2a$10$DW0.749B682MopYe3euW6.9ncSXWXvHiPp/uwDAzZA0G6LVishO0W",
+      "id": 2
+    }
+  ],
+  "category": [
+    {
+      "id": 1,
+      "name": "Medicines",
+      "image": "https://res.cloudinary.com/de59jbjlb/image/upload/v1697979273/medicin_kl0ffq.png"
+    },
+    {
+      "id": 2,
+      "name": "Cosmetics",
+      "image": "https://res.cloudinary.com/de59jbjlb/image/upload/v1697979273/element_v2ygu9.png"
+    },
+    {
+      "id": 3,
+      "name": "Elements",
+      "image": "https://res.cloudinary.com/de59jbjlb/image/upload/v1697979273/cosmetic_krxmfs.png"
+    },
+    {
+      "id": 4,
+      "name": "Medicine",
+      "image": "https://res.cloudinary.com/de59jbjlb/image/upload/v1697979273/drlala_fmx0yx.png"
+    }
+  ],
+  "product": [
+    {
+      "id": 1,
+      "categoryId": 1,
+      "name": "Himalaya Mentat Syrup - 200ml",
+      "preview": "https://res.cloudinary.com/de59jbjlb/image/upload/v1697976963/Rectangle_tawzhu.jpg",
+      "price": 230,
+      "detail": "Himalaya Mentat Syrup Channelizes mental energy and enhances memory and learning capacity. It is rich in Brahmi, Ashwagandha and Madhukaparni.Thyme-Leaved Gratiola (Brahmi) maintains cognitive function. Well known for its nootropic (memory enhancer) effect, the herb enhances memory and learning. It is also known to calm restlessness and is used to treat several mental disorders."
+    },
+    {
+      "id": 2,
+      "categoryId": 1,
+      "name": "Himalaya Bresol Tablets - 60'S",
+      "preview": "https://res.cloudinary.com/de59jbjlb/image/upload/v1697976874/Rectangle_zaov6p.jpg",
+      "price": 230,
+      "detail": "Himalaya Mentat Syrup Channelizes mental energy and enhances memory and learning capacity. It is rich in Brahmi, Ashwagandha and Madhukaparni.Thyme-Leaved Gratiola (Brahmi) maintains cognitive function. Well known for its nootropic (memory enhancer) effect, the herb enhances memory and learning. It is also known to calm restlessness and is used to treat several mental disorders."
+    },
+    {
+      "id": 3,
+      "categoryId": 1,
+      "name": "Moov Strong Diclofenac - 20g",
+      "preview": "https://res.cloudinary.com/de59jbjlb/image/upload/v1697976984/Rectangle_lbidrs.jpg",
+      "price": 230,
+      "detail": "Himalaya Mentat Syrup Channelizes mental energy and enhances memory and learning capacity. It is rich in Brahmi, Ashwagandha and Madhukaparni.Thyme-Leaved Gratiola (Brahmi) maintains cognitive function. Well known for its nootropic (memory enhancer) effect, the herb enhances memory and learning. It is also known to calm restlessness and is used to treat several mental disorders."
+    },
+    {
+      "id": 4,
+      "categoryId": 2,
+      "name": "Volini All Round Spray - 100ml",
+      "preview": "https://res.cloudinary.com/de59jbjlb/image/upload/v1697976993/Rectangle_jxlhww.jpg",
+      "price": 230,
+      "detail": "Himalaya Mentat Syrup Channelizes mental energy and enhances memory and learning capacity. It is rich in Brahmi, Ashwagandha and Madhukaparni.Thyme-Leaved Gratiola (Brahmi) maintains cognitive function. Well known for its nootropic (memory enhancer) effect, the herb enhances memory and learning. It is also known to calm restlessness and is used to treat several mental disorders."
+    },
+    {
+      "id": 5,
+      "categoryId": 2,
+      "name": "Drink Water Drink Drink",
+      "preview": "https://res.cloudinary.com/de59jbjlb/image/upload/v1697977017/Rectangle_pfjqbv.jpg",
+      "price": 230,
+      "detail": "Himalaya Mentat Syrup Channelizes mental energy and enhances memory and learning capacity. It is rich in Brahmi, Ashwagandha and Madhukaparni.Thyme-Leaved Gratiola (Brahmi) maintains cognitive function. Well known for its nootropic (memory enhancer) effect, the herb enhances memory and learning. It is also known to calm restlessness and is used to treat several mental disorders."
+    },
+    {
+      "id": 6,
+      "categoryId": 1,
+      "name": "Himalaya Mentat Syrup - 200ml",
+      "preview": "https://res.cloudinary.com/de59jbjlb/image/upload/v1697976963/Rectangle_tawzhu.jpg",
+      "price": 230,
+      "detail": "Himalaya Mentat Syrup Channelizes mental energy and enhances memory and learning capacity. It is rich in Brahmi, Ashwagandha and Madhukaparni.Thyme-Leaved Gratiola (Brahmi) maintains cognitive function. Well known for its nootropic (memory enhancer) effect, the herb enhances memory and learning. It is also known to calm restlessness and is used to treat several mental disorders."
+    },
+    {
+      "id": 7,
+      "categoryId": 1,
+      "name": "Himalaya Bresol Tablets - 60'S",
+      "preview": "https://res.cloudinary.com/de59jbjlb/image/upload/v1697976874/Rectangle_zaov6p.jpg",
+      "price": 230,
+      "detail": "Himalaya Mentat Syrup Channelizes mental energy and enhances memory and learning capacity. It is rich in Brahmi, Ashwagandha and Madhukaparni.Thyme-Leaved Gratiola (Brahmi) maintains cognitive function. Well known for its nootropic (memory enhancer) effect, the herb enhances memory and learning. It is also known to calm restlessness and is used to treat several mental disorders."
+    },
+    {
+      "id": 8,
+      "categoryId": 1,
+      "name": "Moov Strong Diclofenac - 20g",
+      "preview": "https://res.cloudinary.com/de59jbjlb/image/upload/v1697976984/Rectangle_lbidrs.jpg",
+      "price": 230,
+      "detail": "Himalaya Mentat Syrup Channelizes mental energy and enhances memory and learning capacity. It is rich in Brahmi, Ashwagandha and Madhukaparni.Thyme-Leaved Gratiola (Brahmi) maintains cognitive function. Well known for its nootropic (memory enhancer) effect, the herb enhances memory and learning. It is also known to calm restlessness and is used to treat several mental disorders."
+    },
+    {
+      "id": 9,
+      "categoryId": 2,
+      "name": "Volini All Round Spray - 100ml",
+      "preview": "https://res.cloudinary.com/de59jbjlb/image/upload/v1697976993/Rectangle_jxlhww.jpg",
+      "price": 230,
+      "detail": "Himalaya Mentat Syrup Channelizes mental energy and enhances memory and learning capacity. It is rich in Brahmi, Ashwagandha and Madhukaparni.Thyme-Leaved Gratiola (Brahmi) maintains cognitive function. Well known for its nootropic (memory enhancer) effect, the herb enhances memory and learning. It is also known to calm restlessness and is used to treat several mental disorders."
+    },
+    {
+      "id": 10,
+      "categoryId": 2,
+      "name": "Drink Water Drink Drink ádsadsads…",
+      "preview": "https://res.cloudinary.com/de59jbjlb/image/upload/v1697977017/Rectangle_pfjqbv.jpg",
+      "price": 230,
+      "detail": "Himalaya Mentat Syrup Channelizes mental energy and enhances memory and learning capacity. It is rich in Brahmi, Ashwagandha and Madhukaparni.Thyme-Leaved Gratiola (Brahmi) maintains cognitive function. Well known for its nootropic (memory enhancer) effect, the herb enhances memory and learning. It is also known to calm restlessness and is used to treat several mental disorders."
+    }
+  ],
+  "carts": [
+    {
+      "id": 1,
+      "userId": 2,
+      "cart": [
+        {
+          "productId": 1,
+          "quantity": 2
+        },
+        {
+          "productId": 3,
+          "quantity": 3
+        }
+      ]
+    }
+  ],
+  "address": [
+    {
+      "id": 1,
+      "userId": 2,
+      "name": "Aasiya",
+      "phone": "(763) 346-1680",
+      "address": "1759 Berduf Park",
+      "district": "Nosbakel",
+      "city": "Oditobiw"
+    },
+    {
+      "id": 2,
+      "userId": 2,
+      "name": "Aasiya",
+      "phone": "(763) 346-1680",
+      "address": "1759 Berduf Park",
+      "district": "Nosbakel",
+      "city": "Oditobiw"
+    }
+  ],
+  "order": [
+    {
+      "userId": 2,
+      "address": {
+        "id": 1,
+        "userId": 2,
+        "name": "Aasiya",
+        "phone": "(763) 346-1680",
+        "address": "1759 Berduf Park",
+        "district": "Nosbakel",
+        "city": "Oditobiw"
+      },
+      "product": [
+        {
+          "product": {
+            "id": 1,
+            "categoryId": 1,
+            "name": "Himalaya Mentat Syrup - 200ml",
+            "preview": "https://res.cloudinary.com/de59jbjlb/image/upload/v1697976963/Rectangle_tawzhu.jpg",
+            "price": 230,
+            "detail": "Himalaya Mentat Syrup Channelizes mental energy and enhances memory and learning capacity. It is rich in Brahmi, Ashwagandha and Madhukaparni.Thyme-Leaved Gratiola (Brahmi) maintains cognitive function. Well known for its nootropic (memory enhancer) effect, the herb enhances memory and learning. It is also known to calm restlessness and is used to treat several mental disorders."
+          },
+          "quantity": 2
+        },
+        {
+          "product": {
+            "id": 3,
+            "categoryId": 1,
+            "name": "Moov Strong Diclofenac - 20g",
+            "preview": "https://res.cloudinary.com/de59jbjlb/image/upload/v1697976984/Rectangle_lbidrs.jpg",
+            "price": 230,
+            "detail": "Himalaya Mentat Syrup Channelizes mental energy and enhances memory and learning capacity. It is rich in Brahmi, Ashwagandha and Madhukaparni.Thyme-Leaved Gratiola (Brahmi) maintains cognitive function. Well known for its nootropic (memory enhancer) effect, the herb enhances memory and learning. It is also known to calm restlessness and is used to treat several mental disorders."
+          },
+          "quantity": 3
+        }
+      ],
+      "total": 1150,
+      "id": 1
+    },
+    {
+      "userId": 2,
+      "address": {
+        "id": 1,
+        "userId": 2,
+        "name": "Aasiya",
+        "phone": "(763) 346-1680",
+        "address": "1759 Berduf Park",
+        "district": "Nosbakel",
+        "city": "Oditobiw"
+      },
+      "product": [
+        {
+          "product": {
+            "id": 1,
+            "categoryId": 1,
+            "name": "Himalaya Mentat Syrup - 200ml",
+            "preview": "https://res.cloudinary.com/de59jbjlb/image/upload/v1697976963/Rectangle_tawzhu.jpg",
+            "price": 230,
+            "detail": "Himalaya Mentat Syrup Channelizes mental energy and enhances memory and learning capacity. It is rich in Brahmi, Ashwagandha and Madhukaparni.Thyme-Leaved Gratiola (Brahmi) maintains cognitive function. Well known for its nootropic (memory enhancer) effect, the herb enhances memory and learning. It is also known to calm restlessness and is used to treat several mental disorders."
+          },
+          "quantity": 2
+        },
+        {
+          "product": {
+            "id": 3,
+            "categoryId": 1,
+            "name": "Moov Strong Diclofenac - 20g",
+            "preview": "https://res.cloudinary.com/de59jbjlb/image/upload/v1697976984/Rectangle_lbidrs.jpg",
+            "price": 230,
+            "detail": "Himalaya Mentat Syrup Channelizes mental energy and enhances memory and learning capacity. It is rich in Brahmi, Ashwagandha and Madhukaparni.Thyme-Leaved Gratiola (Brahmi) maintains cognitive function. Well known for its nootropic (memory enhancer) effect, the herb enhances memory and learning. It is also known to calm restlessness and is used to treat several mental disorders."
+          },
+          "quantity": 3
+        }
+      ],
+      "total": 1150,
+      "id": 2
+    }
+  ]
+}
