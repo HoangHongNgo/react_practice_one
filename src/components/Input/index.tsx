@@ -10,7 +10,7 @@ const Input: React.FC<IInputProps> = ({ icon, error, ...inputProps }) => {
   return (
     <S.InputWrapper>
       {icon ? <S.Icon src={icon} alt="input icon"></S.Icon> : ""}
-      <S.StyledInput $icon={true} {...inputProps} />
+      <S.StyledInput $icon={icon ? true : false} {...inputProps} />
       {error ? <p>{error}</p> : ""}
     </S.InputWrapper>
   );

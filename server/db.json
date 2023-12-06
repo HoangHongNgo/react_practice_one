@@ -119,13 +119,27 @@
     {
       "id": 1,
       "userId": 2,
-      "cart": [
+      "products": [
         {
-          "productId": 1,
-          "quantity": 2
+          "product": {
+            "id": 1,
+            "categoryId": 1,
+            "name": "Himalaya Mentat Syrup - 200ml",
+            "preview": "https://res.cloudinary.com/de59jbjlb/image/upload/v1697976963/Rectangle_tawzhu.jpg",
+            "price": 230,
+            "detail": "Himalaya Mentat Syrup Channelizes mental energy and enhances memory and learning capacity. It is rich in Brahmi, Ashwagandha and Madhukaparni.Thyme-Leaved Gratiola (Brahmi) maintains cognitive function. Well known for its nootropic (memory enhancer) effect, the herb enhances memory and learning. It is also known to calm restlessness and is used to treat several mental disorders."
+          },
+          "quantity": 5
         },
         {
-          "productId": 3,
+          "product": {
+            "id": 3,
+            "categoryId": 1,
+            "name": "Moov Strong Diclofenac - 20g",
+            "preview": "https://res.cloudinary.com/de59jbjlb/image/upload/v1697976984/Rectangle_lbidrs.jpg",
+            "price": 230,
+            "detail": "Himalaya Mentat Syrup Channelizes mental energy and enhances memory and learning capacity. It is rich in Brahmi, Ashwagandha and Madhukaparni.Thyme-Leaved Gratiola (Brahmi) maintains cognitive function. Well known for its nootropic (memory enhancer) effect, the herb enhances memory and learning. It is also known to calm restlessness and is used to treat several mental disorders."
+          },
           "quantity": 3
         }
       ]
@@ -133,22 +147,24 @@
   ],
   "address": [
     {
-      "id": 1,
       "userId": 2,
-      "name": "Aasiya",
-      "phone": "(763) 346-1680",
-      "address": "1759 Berduf Park",
-      "district": "Nosbakel",
-      "city": "Oditobiw"
+      "name": "Ngo Hong Hoang",
+      "phone": "0935487037",
+      "address": "36 Nguyễn Xuân Ôn",
+      "district": "Dong Da",
+      "city": "Da Nang",
+      "fee": 10,
+      "id": 5
     },
     {
-      "id": 2,
       "userId": 2,
-      "name": "Aasiya",
-      "phone": "(763) 346-1680",
-      "address": "1759 Berduf Park",
-      "district": "Nosbakel",
-      "city": "Oditobiw"
+      "name": "Hoang Phuong Le",
+      "phone": "0935487037",
+      "address": "36 Nguyễn Xuân Ôn",
+      "district": "Dong Da",
+      "city": "Ha Noi",
+      "fee": 10,
+      "id": 6
     }
   ],
   "order": [
@@ -163,7 +179,7 @@
         "district": "Nosbakel",
         "city": "Oditobiw"
       },
-      "product": [
+      "products": [
         {
           "product": {
             "id": 1,
@@ -193,15 +209,16 @@
     {
       "userId": 2,
       "address": {
-        "id": 1,
         "userId": 2,
-        "name": "Aasiya",
-        "phone": "(763) 346-1680",
-        "address": "1759 Berduf Park",
-        "district": "Nosbakel",
-        "city": "Oditobiw"
+        "name": "Ngo Hong Hoang",
+        "phone": "0935487037",
+        "address": "36 Nguyễn Xuân Ôn",
+        "district": "Dong Da",
+        "city": "Da Nang",
+        "fee": 10,
+        "id": 5
       },
-      "product": [
+      "products": [
         {
           "product": {
             "id": 1,
@@ -211,7 +228,7 @@
             "price": 230,
             "detail": "Himalaya Mentat Syrup Channelizes mental energy and enhances memory and learning capacity. It is rich in Brahmi, Ashwagandha and Madhukaparni.Thyme-Leaved Gratiola (Brahmi) maintains cognitive function. Well known for its nootropic (memory enhancer) effect, the herb enhances memory and learning. It is also known to calm restlessness and is used to treat several mental disorders."
           },
-          "quantity": 2
+          "quantity": 5
         },
         {
           "product": {
@@ -225,8 +242,154 @@
           "quantity": 3
         }
       ],
-      "total": 1150,
+      "shipping": 10,
+      "total": 1850,
       "id": 2
+    },
+    {
+      "userId": 2,
+      "address": {
+        "userId": 2,
+        "name": "Ngo Hong Hoang",
+        "phone": "0935487037",
+        "address": "36 Nguyễn Xuân Ôn",
+        "district": "Dong Da",
+        "city": "Da Nang",
+        "fee": 10,
+        "id": 5
+      },
+      "products": [
+        {
+          "product": {
+            "id": 1,
+            "categoryId": 1,
+            "name": "Himalaya Mentat Syrup - 200ml",
+            "preview": "https://res.cloudinary.com/de59jbjlb/image/upload/v1697976963/Rectangle_tawzhu.jpg",
+            "price": 230,
+            "detail": "Himalaya Mentat Syrup Channelizes mental energy and enhances memory and learning capacity. It is rich in Brahmi, Ashwagandha and Madhukaparni.Thyme-Leaved Gratiola (Brahmi) maintains cognitive function. Well known for its nootropic (memory enhancer) effect, the herb enhances memory and learning. It is also known to calm restlessness and is used to treat several mental disorders."
+          },
+          "quantity": 5
+        },
+        {
+          "product": {
+            "id": 3,
+            "categoryId": 1,
+            "name": "Moov Strong Diclofenac - 20g",
+            "preview": "https://res.cloudinary.com/de59jbjlb/image/upload/v1697976984/Rectangle_lbidrs.jpg",
+            "price": 230,
+            "detail": "Himalaya Mentat Syrup Channelizes mental energy and enhances memory and learning capacity. It is rich in Brahmi, Ashwagandha and Madhukaparni.Thyme-Leaved Gratiola (Brahmi) maintains cognitive function. Well known for its nootropic (memory enhancer) effect, the herb enhances memory and learning. It is also known to calm restlessness and is used to treat several mental disorders."
+          },
+          "quantity": 3
+        }
+      ],
+      "shipping": 10,
+      "total": 1850,
+      "id": 3
+    },
+    {
+      "userId": 2,
+      "address": {
+        "userId": 2,
+        "name": "Ngo Hong Hoang",
+        "phone": "0935487037",
+        "address": "36 Nguyễn Xuân Ôn",
+        "district": "Dong Da",
+        "city": "Da Nang",
+        "fee": 10,
+        "id": 5
+      },
+      "products": [
+        {
+          "product": {
+            "id": 1,
+            "categoryId": 1,
+            "name": "Himalaya Mentat Syrup - 200ml",
+            "preview": "https://res.cloudinary.com/de59jbjlb/image/upload/v1697976963/Rectangle_tawzhu.jpg",
+            "price": 230,
+            "detail": "Himalaya Mentat Syrup Channelizes mental energy and enhances memory and learning capacity. It is rich in Brahmi, Ashwagandha and Madhukaparni.Thyme-Leaved Gratiola (Brahmi) maintains cognitive function. Well known for its nootropic (memory enhancer) effect, the herb enhances memory and learning. It is also known to calm restlessness and is used to treat several mental disorders."
+          },
+          "quantity": 5
+        },
+        {
+          "product": {
+            "id": 3,
+            "categoryId": 1,
+            "name": "Moov Strong Diclofenac - 20g",
+            "preview": "https://res.cloudinary.com/de59jbjlb/image/upload/v1697976984/Rectangle_lbidrs.jpg",
+            "price": 230,
+            "detail": "Himalaya Mentat Syrup Channelizes mental energy and enhances memory and learning capacity. It is rich in Brahmi, Ashwagandha and Madhukaparni.Thyme-Leaved Gratiola (Brahmi) maintains cognitive function. Well known for its nootropic (memory enhancer) effect, the herb enhances memory and learning. It is also known to calm restlessness and is used to treat several mental disorders."
+          },
+          "quantity": 3
+        }
+      ],
+      "shipping": 10,
+      "total": 1850,
+      "id": 4
+    }
+  ],
+  "cities": [
+    {
+      "id": 1,
+      "name": "Ha Noi",
+      "districts": [
+        {
+          "id": 101,
+          "name": "Dong Da",
+          "fee": 10
+        },
+        {
+          "id": 102,
+          "name": "Long Bien",
+          "fee": 10
+        },
+        {
+          "id": 103,
+          "name": "Hai Ba Trung",
+          "fee": 10
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Da Nang",
+      "districts": [
+        {
+          "id": 201,
+          "name": "Hai Chau",
+          "fee": 5
+        },
+        {
+          "id": 202,
+          "name": "Thanh Khe",
+          "fee": 5
+        },
+        {
+          "id": 203,
+          "name": "Cam Le",
+          "fee": 5
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Ho Chi Minh City",
+      "districts": [
+        {
+          "id": 301,
+          "name": "Thu Duc",
+          "fee": 7
+        },
+        {
+          "id": 302,
+          "name": "Quan 3",
+          "fee": 7
+        },
+        {
+          "id": 303,
+          "name": "Binh Thanh",
+          "fee": 7
+        }
+      ]
     }
   ]
 }

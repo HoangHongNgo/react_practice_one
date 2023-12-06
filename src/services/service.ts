@@ -1,5 +1,12 @@
 import { LoginResponse } from "../types/auth";
-import { AddressResponse, CartResponse, ICartItem, OrderBody } from "../types/cart";
+import {
+  AddressForm,
+  AddressResponse,
+  CartResponse,
+  CityResponse,
+  ICartItem,
+  OrderBody,
+} from "../types/cart";
 import { CategoryResponse } from "../types/category";
 import { ProductByCategoryResponse, ProductResponse } from "../types/product";
 import { apiRequest } from "../utils/apiRequest";
@@ -40,6 +47,15 @@ export const getCartByUserId = (userId: string, token: string) => {
   );
 };
 
+export const updateCartById = (token: string, cart: CartResponse, cartId: string) => {
+  return apiRequest<CartResponse, CartResponse>(
+    `http://localhost:3000/600/carts/${cartId}`,
+    HttpMethod.PUT,
+    cart,
+    token
+  );
+};
+
 export const getAddressByUserId = (userId: string, token: string) => {
   return apiRequest<AddressResponse[]>(
     `http://localhost:3000/600/address?userId_like=${userId}`,
@@ -49,22 +65,24 @@ export const getAddressByUserId = (userId: string, token: string) => {
   );
 };
 
-export const addOrder = (
-  userId: number,
-  address: AddressResponse,
-  cart: ICartItem[],
-  total: number,
-  token: string
-) => {
+export const addAddress = (token: string, address: AddressForm) => {
+  return apiRequest<AddressResponse, AddressForm>(
+    `http://localhost:3000/600/address`,
+    HttpMethod.POST,
+    address,
+    token
+  );
+};
+
+export const addOrder = (order: OrderBody, token: string) => {
   return apiRequest<OrderBody, OrderBody>(
     `http://localhost:3000/600/order/`,
     HttpMethod.POST,
-    {
-      userId: userId,
-      address: address,
-      product: cart,
-      total: total,
-    },
+    order,
     token
   );
+};
+
+export const getCities = () => {
+  return apiRequest<CityResponse[]>(`http://localhost:3000/cities/`, HttpMethod.GET);
 };

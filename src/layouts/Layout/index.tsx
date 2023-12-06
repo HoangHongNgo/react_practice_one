@@ -1,13 +1,15 @@
 import { Outlet } from "react-router-dom";
-import Header from "./Header/Header";
+import Header from "../Header";
 import { Suspense } from "react";
 
-export interface ILayoutProps {}
+interface LayoutProps {
+  handleLogout: () => void;
+}
 
-const Layout = (props: ILayoutProps): JSX.Element => {
+const Layout: React.FC<LayoutProps> = ({ handleLogout }) => {
   return (
     <>
-      <Header />
+      <Header handleLogout={handleLogout} />
       <main>
         <Suspense fallback={<div>Loading...</div>}>
           <Outlet />

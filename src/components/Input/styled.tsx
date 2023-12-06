@@ -15,7 +15,7 @@ export namespace S {
   `;
 
   export const StyledInput = styled.input<{ $icon?: boolean }>`
-    padding-left: ${({ $icon }) => ($icon ? "61px" : "20px")};
+    padding-left: ${({ $icon }) => ($icon ? "70px" : "20px")};
     width: 335px;
     height: 64px;
     border-radius: 22px;
@@ -32,7 +32,7 @@ export namespace S {
     top: 50%;
     left: 22px;
     transform: translateY(-50%);
-    width: 20px;
-    height: 20px;
+    width: 32px;
+    height: 32px;
   `;
 }

@@ -19,6 +19,8 @@ const App: React.FC = () => {
   const { userState, login, logout } = useAuth();
   const { cart, addToCart, setQuantity, removeFromCart } = useCart(userState);
 
+  console.log("cart at App: ", cart);
+
   const router = createBrowserRouter([
     {
       element: (
@@ -50,7 +52,7 @@ const App: React.FC = () => {
         },
         {
           path: "address",
-          element: <Address />,
+          element: <Address user={userState!} />,
         },
       ],
     },

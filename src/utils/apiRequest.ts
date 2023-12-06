@@ -40,6 +40,7 @@ export async function apiRequest<T, U>(
     const response: Response = await fetch(url, request);
 
     const data = (await response.json()) as T;
+    console.log(data);
     return data;
   } catch (err) {
     throw err;
